@@ -1,0 +1,141 @@
+﻿@CHARSET "UTF-8";
+
+                                       /*         HEADER
+*/
+.main-header {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrzNwmyGe2Yi5V3gzjdD5f1Lxb6RqVuAztuoRfFqIqvZWKJFCihg') 
+        center/cover no-repeat; 
+	color: sienna;	
+	font-size : 5em;
+    font-family: 'Comfortaa', cursive;
+    height: 400px; 
+    margin: 0 auto; 
+    text-align:center;
+        }
+                        
+ul.sp-menu {
+        display: table;
+        margin: auto; 
+        margin-top: 50px;
+        text-align: justify;
+   }
+ul.sp-menu li {
+	border: none;  
+    display: inline-block; 
+    margin-right: 20px; 
+    padding: 3px; 
+              }                                   
+                            /*                 ПОСИЛАННЯ
+*/
+.a {
+	font-family: 'Comfortaa', cursive;
+	text-decoration: none; }
+
+a:link { 
+    color: mediumorchid;
+	font-size : 20px;
+	font-weight: bold; 
+	text-decoration: none; 
+	}
+a:visited { 
+    color: indigo;
+	font-size : 20px;
+	font-weight: bold; 
+	text-decoration: none; 
+	}
+a:hover, a:focus, a:active { 
+    color: fuchsia;
+	font-size : 20px;
+	text-decoration: underline; 
+       }				
+
+	   
+                              /*     ОСНОВНА ЧАСТИНА 
+*/
+
+.main {overflow: auto;
+      }
+/*
+.colonki { position: relative;}
+*/
+.col1 { 
+        border-right: 2px solid sienna;
+		float:left;
+       width: 100px; }
+	   
+.col2 {  
+		float: right;
+        width: 200px; }
+.zag {
+	color: sienna;
+	font-family: 'Comfortaa', cursive;
+    font-size : 2em;
+     }
+	 
+.text {
+	    color: black;
+        font-family: Arial;
+        font-size: 12px;
+       } 
+
+.ill  {  height: 100px; 
+         width: 100px; 
+	  float: left;  
+      margin: 3px 12px 0px 0px; px;
+	  alt="????" ;
+      }
+
+.chapter { 
+	  color: blue;
+	  font-family: 'Comfortaa';
+      font-size: 20px;
+	  display: block;
+	  margin-bottom:20px;
+	  margin-top:20px;
+         }
+		 
+                               /* FOTO
+							   */
+ 
+
+.foto {
+	   height: 100px;
+       weight:100px;	
+       margin-right: 10px; 
+       margin-bottom: 10px; 
+       margin-top:20px;	   
+
+                             /*  FOOTER 
+*/
+	 
+
+.contener { 
+    background: burlywood;
+    weight: 1140px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;  
+    
+}       
+.colf2 {
+    weight: 360px;
+    float: right; 
+    height: 100px; 
+    margin-right: 40px;
+}
+.colf1{
+    weight: 360px;
+    float: left; 
+    height: 100px; 
+	margin-left: 40px;
+}
+.txtfoot {
+    font-family: 'Comfortaa', cursive;
+    font-size : 1em;
+	color: sienna;
+}
+icnfoot {
+    weight: 80px;
+    height: 80px;
+    margin-right: 20px;
+        }
