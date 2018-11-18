@@ -2,7 +2,7 @@
 <html>
 <head>
  <meta charset="UTF-8">
-    <title> Фотогалерея </title>
+    <title> Покупка изделия </title>
 	<link rel="stylesheet" href="https://cdnjs.com/libraries/normalize/>
                                  
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa" >
@@ -12,6 +12,13 @@
     <link rel="stylesheet" type="text/css" href="styles1.css"/> 
                                                              
     <link rel="shortcut icon" type="image/x-icon" href="images.png"/> 
+	
+	<script  language="javascript">
+	function myFunction()
+	 
+	 document.write('<p>Спасибо, мы свяжемся с Вами.</p>');
+	 
+	</script>
 </head>                                                                 
 
 <body>
@@ -34,19 +41,31 @@
                         <li> <a href=" #footer" target="_blank"> Контакты </a></li>
                    </ul>                            
                 </div>
-            	 
+      
+<h2 class-"chapter"> Деньги от продаж поступают в помощь детям, находящимся на лечении в областном центре онкологии и гематологии</h2>	  
          <div class="main">
-                        <img class="foto" src="kartinki/f1.jpg" alt= "foto"/>	
-                        <img class="foto" src="kartinki/f2.jpg" alt= "foto"/>					   
-					    <img class="foto" src="kartinki/f3.jpg" alt= "foto"/>
-						<img class="foto" src="kartinki/f4.jpg" alt= "foto"/>
-						<img class="foto" src="kartinki/f5.jpg" alt= "foto/>
-						<img class="foto" src="kartinki/f6.jpg" alt= "foto"/>
-						<img class="foto" src="kartinki/f7.jpg" alt= "foto"/>
-						<img class="foto" src="kartinki/f8.jpg" alt= "foto"/>
-						<img class="foto" src="kartinki/f9.jpg" alt= "foto"/>
+		             
+					 <div>  
+					    <!--    На пошту не відправляється!  <form action="mailto:lesson.info770@gmail.com"/>-->
+                           <form>
+   						   <fieldset>
+                                  <legend>Контактная информация</legend>
+                                  <p><label > Имя </label><input type="text" ></p>
+                                  <p><label>Телефон </label><input type="text" ></p>
+								  <p><label for="email">E-mail</label><input type="email"></p>
+								  <p><label>Название изделия </label><input type="text"></p>
+								  <p><label>Укажите способ оплаты </label> <br>
+								            <input type="radio" name="oplata" value="Наличными при встрече" > Наличными при встрече <br>
+                                            <input type="radio" name="oplata" value="На карту"> На карту <br> </p>
+                             </fieldset>
+                             <p class="chapter"><input type="submit" value="Отправить" id="one" onclick=myFunction();></p>
+                     </form>
+
+						 <p class="chapter"> <a href="shop.html">  Вернуться на ярмарку </a> </p>
+				     </div>
+						
+                       
 		</div>
-		
 <div class="contener">
                      
            <div class="colf1" >        
