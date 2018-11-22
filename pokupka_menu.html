@@ -9,16 +9,10 @@
                                                                                   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
                                                                                    
-    <link rel="stylesheet" type="text/css" href="styles1.css"/> 
+    <link rel="stylesheet" type="text/css" href="styles1_s_menu.css"/> 
                                                              
     <link rel="shortcut icon" type="image/x-icon" href="images.png"/> 
 	
-	<script  language="javascript">
-	function myFunction()
-	 
-	 document.write('<p>Спасибо, мы свяжемся с Вами.</p>');
-	 
-	</script>
 </head>                                                                 
 
 <body>
@@ -26,23 +20,29 @@
            Неделя добрых дел
     </h1>
 	  	  
-                   <div  class="fon">                             
-                   <ul class="sp-menu">
+                    <div class="fon">                             
+                   <ul class="menu">
                         <li> <a href="o_proekte.html" target="_blank">О проекте   </a></li>
                         <li> <a href="project_index.html" target="_blank">   Новости  </a> </li>
-						<li> <a href="akcii.html" target="_blank">   Акции </a> </li>
-						 <!--    <u1 class="submenu">
-							   <li> <a href="chudo.html" target="_blank">   Чудошапочки </a> </li>
-							   <li> <a href="teply_dom.html" target="_blank">   Теплый дом </a> </li>
-							   <li> <a href="koncert.html" target="_blank">  От сердца к сердцу </a> </li>
-							  </u1> -->
-						<li> <a href="shop.html" target="_blank">   Благотворительная ярмарка </a> </li>
+						<li> <a href="#">   Акции </a> 
+					         <u1 class="submenu">
+							   <li class="sub"> <a href="chudo.html" target="_blank">   Чудошапочки </a> </li>
+							   <li class="sub"> <a href="teply_dom.html" target="_blank">   Теплый дом </a> </li>
+							   <li class="sub"> <a href="koncert.html" target="_blank">  От сердца к сердцу </a> </li>
+					        </u1> 
+						</li>
+						<li> <a href="#">   Благотворительная ярмарка </a> 
+						      <u1 class"="submenu">
+							   <li class="sub"> <a href="shop_toy.html" target="_blank">   Игрушки </a> </li>
+							   <li class="sub"> <a href="shop.hat.html" target="_blank">   Шапочки  </a> </li>
+						      </u1>
+						 </li>
 					    <li> <a href="foto.html" target="_blank">  Фотогалерея </a> </li>
                         <li> <a href=" #footer" target="_blank"> Контакты </a></li>
                    </ul>                            
                 </div>
-      
-<h2 class-"chapter"> Деньги от продаж поступают в помощь детям, находящимся на лечении в областном центре онкологии и гематологии</h2>	  
+      <br>
+<h2 class="chapter"> Деньги от продаж поступают в помощь детям, находящимся на лечении в областном центре онкологии и гематологии</h2>	  
          <div class="main">
 		             
 					 <div>  
@@ -57,17 +57,25 @@
 								  <p><label>Укажите способ оплаты </label> <br>
 								            <input type="radio" name="oplata" value="Наличными при встрече" > Наличными при встрече <br>
                                             <input type="radio" name="oplata" value="На карту"> На карту <br> </p>
-                             </fieldset>
+                             
                               <p id="demo">Удачных покупок!</p>
-                             <button type="button"
-                                    onclick="document.getElementById("demo").innerHTML ="Спасибо, мы свяжемся с Вами">
-                                               Отправить</button>
-                               
+							<button type="button" onclick="change()"> Отправить </button>
+<script>
+function change() {
+document.getElementById('demo').innerHTML = "Спасибо, мы свяжемся с Вами!"
+}
+</script>
+                     </fieldset>          
                      </form>
 
+<script>
+function change() {
+document.getElementById('demo').innerHTML = "Спасибо, мы свяжемся с Вами!"
+}
+</script>
 						 <p class="chapter"> <a href="shop.html">  Вернуться на ярмарку </a> </p>
 				     </div>
-						
+						)
                        
 		</div>
 <div class="contener">

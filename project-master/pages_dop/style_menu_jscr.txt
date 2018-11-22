@@ -1,4 +1,4 @@
-﻿@CHARSET "UTF-8";
+@CHARSET "UTF-8";
 
                                        /*         HEADER
 */
@@ -14,19 +14,21 @@
         }
 .fon {  background: lightgrey;}                        
                         
-ul.sp-menu {
-        display: table;
-        margin: auto; 
-        margin-top: 50px;
-        text-align: justify;
+.sp-menu {
+        display: inline-block;
+        position: relative;
+		cursor: pointer;
    }
-ul.sp-menu li {
-	border: none;  
-    display: inline-block; 
-    margin-right: 20px; 
-    padding: 3px; 
-              }                                   
-                            /*                 ПОСИЛАННЯ
+.sp-menu.submenu {
+	border: none; 
+  display: none;
+   height:40px;
+   width: 120px;
+   cursor: pointer;
+   position:absolute;
+  bacground: green;
+              }    
+             /*                 ПОСИЛАННЯ
 */
 .a {
 	font-family: 'Comfortaa', cursive;
@@ -114,9 +116,8 @@ a:hover, a:focus, a:active {
 .ill  {  height: 100px; 
          width: 100px; 
 	  float: left;  
-      margin: 3px 12px 0px 0px; px;
-	  alt="????" ;
-      }
+      margin: 3px 12px 0px 0px;
+}
 
 .chapter { 
 	  color: sienna;
@@ -175,5 +176,4 @@ icnfoot {
 .ill_f  {  height: 100px; 
          width: 150px; 
       margin-right: 10px;
-	  alt="????" ;
       }
