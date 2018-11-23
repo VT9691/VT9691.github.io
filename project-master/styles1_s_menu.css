@@ -1,0 +1,175 @@
+﻿@CHARSET "UTF-8";
+
+                                       /*         HEADER
+*/
+.main-header {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrzNwmyGe2Yi5V3gzjdD5f1Lxb6RqVuAztuoRfFqIqvZWKJFCihg') 
+        center/cover no-repeat; 
+  	color: sienna;	
+  	font-size : 5em;
+    font-family: 'Comfortaa', cursive;
+    height: 400px; 
+    margin: 0 auto; 
+    text-align:center;
+        }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.fon {background:lightgrey;
+      width: 100%;}
+	  
+ul { font-family: 'Comfortaa', cursive;
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: indigo;
+    background-color: lightgrey;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background: rosybrown;
+  	color: fuchsia;;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    border: 1px solid indigo;
+}
+ul.submenu {
+    display:none;
+}
+.sub {
+    display:none;
+}
+u1.submenu>li:hover {display: block;}
+
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    display: block;
+  text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu 
+{ display: block;}
+                     
+                              /*     ОСНОВНА ЧАСТИНА 
+*/
+
+.main {overflow: auto;
+      }
+
+.col1 {
+	   border-right: 2px solid sienna;
+       box-sizing: border-box;
+       display: inline-block;
+       padding: 20px;
+       width: 300px; 
+	   }
+	   
+.col2 {  
+	    box-sizing: content-box; 
+        display: inline-block;
+        width: 400px; 
+		}
+.zag {
+	color: sienna;
+	font-family: 'Comfortaa', cursive;
+    font-size : 2em;
+     }
+	 
+.text {
+	    color: black;
+        font-family: Arial;
+        font-size: 20px;
+       } 
+
+.ill  {  height: 100px; 
+         width: 100px; 
+	  float: left;  
+      margin: 3px 12px 0px 0px; px;
+	  alt="????" ;
+      }
+
+.chapter { 
+	  color: sienna;
+	  font-family: 'Comfortaa';
+      font-size: 20px;
+	  display: block;
+	  margin-bottom:20px;
+	  margin-top:20px;
+         }
+		 
+                               /* FOTO
+							   */
+ 
+
+.foto {
+	   height: 200px;
+       weight: 200px;	
+       margin-right: 10px; 
+       margin-bottom: 10px; 
+       margin-top: 20px;	
+     }	   
+
+                             /*  FOOTER 
+*/
+
+.contener { 
+    background: burlywood;
+    weight: 1140px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;  
+    
+}       
+.colf2 {
+    weight: 360px;
+    float: right; 
+    height: 100px; 
+    margin-right: 40px;
+}
+.colf1{
+    weight: 360px;
+    float: left; 
+    height: 100px; 
+	margin-left: 40px;
+}
+.txtfoot {
+    font-family: 'Comfortaa', cursive;
+    font-size : 1em;
+	color: sienna;
+}
+icnfoot {
+    weight: 90px;
+    height: 90px;
+    margin-right: 20px;
+        }
+.ill_f  {  height: 100px; 
+         width: 150px; 
+      margin-right: 10px;
+	  alt="????" ;
+      }
