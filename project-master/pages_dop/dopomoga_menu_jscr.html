@@ -17,30 +17,7 @@
 	           font-size: 20px;
 			 }
     </style>
-	<script>
-	document.getElementById("nav").onmouseover=function(event){
-	var target=event.target;
-	if (target.className=="sp_menu"){
-	    var s = target.getElementByClassName("submenu");
-		closeMenu();
-		s[0].style.display="block";
-		}
-		}
-		document.onmouseover=function(event){
-		var target=event.target;
-		consol.log(event.target);
-		if (target.className!="sp_menu"&&target.className!="submenu"){
-		closeMenu
-		}}
 		
-		function closeMenu();{
-		var menu = document.getElementById("nav");
-		var subm=document.getElementByClassName("submenu");
-		for (var i=0; i<subm.lenghn; i++) {
-		subm[i].style.display="none";
-		}
-		}
-	</script>	
 	</head>                                                                 
 
 <body>
@@ -82,6 +59,30 @@
                              </fieldset>
                              <p><input type="submit" value="Отправить"></p>
                      </form>
+        <script>
+	document.getElementById("nav").onmouseover=function(event){
+	var target=event.target;
+	if (target.className=="sp_menu"){
+	    var s = target.getElementByClassName("submenu");
+		closeMenu();
+		s[0].style.display="block";
+		}
+		}
+		document.onmouseover=function(event){
+		var target=event.target;
+		consol.log(event.target);
+		if (target.className!="sp_menu"&&target.className!="submenu"){
+		closeMenu
+		}}
+		
+		function closeMenu();{
+		var menu = document.getElementById("nav");
+		var subm=document.getElementByClassName("submenu");
+		for (var i=0; i<subm.lenghn; i++) {
+		subm[i].style.display="none";
+		}
+		}
+	</script>
 						<p class="text">  Если Вы решили оказать финансовую помощь нашим подопечным, свяжитесь с организацией, которой хотите помочь.<br>
 						  <span class="telefon"> Черкасский областной центр соціально-психологічної реабілітації дітей  (0472) 64-22-33, 64-47-19, 64-01-02 </span> 
 						  Подробнее об организации <span> <a href="http://www.detdom.info/detdom/cherkaskiy-oblasniy-pritulok-dlya-ditey" target="_ blank"> ЗДЕСЬ </a></span>
