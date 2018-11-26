@@ -97,6 +97,9 @@ a:hover, a:focus, a:active {
 .col2 {  
 	    box-sizing: content-box; 
         display: inline-block;
+	margin-left:300px;
+        padding: 20px;
+	vertical-align: top;
         width: 400px; 
 		}
 .zag {
