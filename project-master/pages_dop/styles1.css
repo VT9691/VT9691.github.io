@@ -1,0 +1,158 @@
+﻿@CHARSET "UTF-8";
+
+                                       /*         HEADER
+*/
+.main-header {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrzNwmyGe2Yi5V3gzjdD5f1Lxb6RqVuAztuoRfFqIqvZWKJFCihg') 
+        center/cover no-repeat; 
+	color: sienna;	
+	font-size : 5em;
+    font-family: 'Comfortaa', cursive;
+    height: 400px; 
+    margin: 0 auto; 
+    text-align:center;
+        }
+		
+		
+		form[name="search"] {
+	float: right;
+}
+                  
+                        
+nav a {
+	text-decoration: none;
+	background: lightgrey;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style-position: inside;
+	font: 14px 'Oswald', sans-serif;
+	padding: 10px;
+}
+
+.top-menu li {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+}
+
+.top-menu li.active {
+	background: #29c5e6;
+	color: #fff;
+}
+
+.top-menu a {
+	color: #b2b2b2;
+}
+	   
+                              /*     ОСНОВНА ЧАСТИНА 
+*/
+
+.main {overflow: auto;
+      }
+
+.col1 {
+	   border-right: 2px solid sienna;
+       float:left;
+       width: 250px; 
+	   }
+	   
+.col2 {  
+	   margin-left:280px;
+	   padding-bottom:50px;
+		}
+.zag {
+	color: sienna;
+	font-family: 'Comfortaa', cursive;
+    font-size : 2em;
+     }
+	 
+.text {
+	    color: black;
+        font-family: Arial;
+        font-size: 20px;
+       } 
+
+.ill  {  height: 100px; 
+         width: 100px; 
+	  float: left;  
+      margin: 3px 12px 0px 0px; px;
+	  alt="????" ;
+      }
+
+.chapter { 
+	  color: sienna;
+	  font-family: 'Comfortaa';
+      font-size: 20px;
+	  display: block;
+	  margin-bottom:20px;
+	  margin-top:20px;
+         }
+		 
+.kn {border: 2px solid sienna; 
+    display: inline-block;
+    padding: 5px 15px; 
+    text-decoration: none; 
+    color: sienna; 
+  }
+   .kn:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
+    background: linear-gradient(to bottom, peachpuff,burlywood); 
+    color: sienna;
+   }
+		 
+                               /* FOTO
+							   */
+ 
+
+.foto {
+	   height: 200px;
+       weight: 200px;	
+       margin-right: 10px; 
+       margin-bottom: 10px; 
+       margin-top: 20px;	
+     }	   
+
+                             /*  FOOTER 
+*/
+
+.contener { 
+    background: burlywood;
+    weight: 1140px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;  
+    
+}       
+.colf2 {
+    weight: 360px;
+    float: right; 
+    height: 100px; 
+    margin-right: 40px;
+}
+.colf1{
+    weight: 360px;
+    float: left; 
+    height: 100px; 
+	margin-left: 40px;
+}
+.txtfoot {
+    font-family: 'Comfortaa', cursive;
+    font-size : 1em;
+	color: sienna;
+}
+icnfoot {
+    weight: 90px;
+    height: 90px;
+    margin-right: 20px;
+        }
+.ill_f  {  height: 100px; 
+         width: 150px; 
+      margin-right: 10px;
+	  alt="????" ;
+      }
