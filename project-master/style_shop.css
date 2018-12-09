@@ -1,0 +1,160 @@
+@CHARSET "UTF-8";
+
+                                       /*         HEADER
+*/
+.main-header {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrzNwmyGe2Yi5V3gzjdD5f1Lxb6RqVuAztuoRfFqIqvZWKJFCihg') 
+        center/cover no-repeat; 
+  	color: sienna;	
+  	font-size : 5em;
+    font-family: 'Comfortaa', cursive;
+    height: 400px; 
+    margin: 0 auto; 
+    text-align:center;
+        }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.fon {background:lightgrey;
+      font-family: 'Comfortaa', cursive;
+      width: 100%;}
+	  
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+	 left: 20%;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    background-color: lightgray;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background: rosybrown;
+  color: fuchsia;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 150px;
+    top: 37px;
+    left: 0;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    background-color: lightgrey;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+	 background: rosybrown;
+     color: fuchsia;
+     text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+	 
+	 
+                              /*     ОСНОВНА ЧАСТИНА 
+*/
+
+.text {
+	    color: black;
+        font-family: Arial;
+        font-size: 20px;
+       } 
+
+.ill  {  height: 100px; 
+         width: 100px; 
+	  float: left;  
+      margin: 3px 12px 0px 0px; 
+      }
+
+.chapter { 
+	  color: sienna;
+	  font-family: 'Comfortaa';
+      font-size: 20px;
+	  display: block;
+	  margin-bottom:20px;
+	  margin-top:20px;
+         }
+	.magazin {font: 14px Verdana, Geneva, sans-serif;
+              text-align: center;}
+	.magazin li {
+                display : inline-block;
+                width : 80px;
+                height: 80px;
+                margin-bottom: 10px;
+                vertical-align: top;
+                text-align: center;
+                line-height: normal;
+				}	 
+		 
+                               /* FOTO
+							   */
+ 
+
+.foto {
+	   height: 200px;
+       widht: 200px;	
+       margin-right: 10px; 
+       margin-bottom: 10px; 
+       margin-top: 20px;	
+     }	   
+
+                             /*  FOOTER 
+*/
+
+.contener { 
+    background: burlywood;
+    weight: 1140px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;  
+    
+}       
+.colf2 {
+    weight: 360px;
+    float: right; 
+    height: 100px; 
+    margin-right: 40px;
+}
+.colf1{
+    weight: 360px;
+    float: left; 
+    height: 100px; 
+	margin-left: 40px;
+}
+.txtfoot {
+    font-family: 'Comfortaa', cursive;
+    font-size : 1em;
+	color: sienna;
+}
+icnfoot {
+    weight: 90px;
+    height: 90px;
+    margin-right: 20px;
+        }
+.ill_f  {  height: 100px; 
+         width: 150px; 
+      margin-right: 10px;
+      }
